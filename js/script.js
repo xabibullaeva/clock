@@ -72,10 +72,10 @@ button.addEventListener("click", () => {
 function btnStart() {
     time = setInterval(() => { 
         sekund.innerHTML++ 
-        if (sekund.innerHTML == 59){
+        if (sekund.innerHTML == 60){
             sekund.innerHTML = 0;
             secMin.innerHTML++;
-        }else if(secMin.innerHTML == 59){
+        }else if(secMin.innerHTML == 60){
             secMin.innerHTML = 0;
             secHour.innerHTML++;
         }
